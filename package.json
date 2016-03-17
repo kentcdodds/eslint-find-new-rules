@@ -4,13 +4,13 @@
   "description": "Use this to save yourself some time when working on a webpack configuration.",
   "main": "index.js",
   "scripts": {
-    "cover": "nyc --reporter=lcov --reporter=text npm t",
+    "cover": "nyc --reporter=lcov --reporter=text ava",
     "test": "ava",
     "lint": "eslint .",
     "check-kentcdodds": "./bin.js eslint-config-kentcdodds",
     "update-contributors": "all-contributors generate",
     "commit": "git-cz",
-    "validate": "npm-run-all --parallel lint cover",
+    "validate": "npm-run-all --parallel lint cover --sequential check-coverage",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post",
     "check-coverage": "nyc check-coverage --statements 71 --branches 33 --functions 100 --lines 71",
     "report-coverage": "cat ./coverage/lcov.info | node_modules/.bin/codecov"

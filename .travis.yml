@@ -14,7 +14,6 @@ before_script:
   - npm prune
 script:
   - npm run validate
-  - npm run check-coverage
 after_success:
   - 'curl -Lo travis_after_all.py https://git.io/travis_after_all'
   - python travis_after_all.py
