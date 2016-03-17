@@ -37,9 +37,9 @@
     "eslint": "2.4.0",
     "eslint-config-kentcdodds": "6.0.0",
     "ghooks": "1.0.3",
-    "mock-fs": "3.8.0",
     "npm-run-all": "1.5.3",
     "nyc": "6.1.1",
+    "proxyquire": "1.7.4",
     "semantic-release": "4.3.5",
     "validate-commit-msg": "2.4.0"
   },
