@@ -1,5 +1,10 @@
 # eslint-find-new-rules
 
+## Deprecation
+**This module is deprecated in favor of [eslint-find-rules](https://www.npmjs.com/package/eslint-find-rules/)**
+
+---
+
 Use this for your own [ESLint](http://eslint.org/) [shareable configuration](http://eslint.org/docs/developer-guide/shareable-configs)
 to identify built-in ESLint rules that you're not explicitly configuring.
 
