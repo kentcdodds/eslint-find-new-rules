@@ -1,6 +1,7 @@
 # eslint-find-new-rules
 
-## Deprecation
+## Deprecation Notice
+
 **This module is deprecated in favor of [eslint-find-rules](https://www.npmjs.com/package/eslint-find-rules/)**
 
 ---
